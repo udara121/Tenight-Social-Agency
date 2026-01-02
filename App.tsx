@@ -12,7 +12,7 @@ import CustomCursor from './components/CustomCursor';
 import Preloader from './components/Preloader';
 
 const App: React.FC = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     // Simulate initial asset loading
